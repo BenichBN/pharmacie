@@ -78,6 +78,7 @@ div.num1 {
     margin : 15px; 
     width: 50px;
     padding: 5px;
+    border-radius: 10px;
     text-align: center;
     cursor: pointer;
 }
@@ -95,6 +96,7 @@ div.num1:hover {
     margin : 20px ; 
     width: 75px;
     padding: 5px;
+    border-radius: 10px;
     text-align: center;
     cursor: pointer;
 }
@@ -103,6 +105,22 @@ div.num1:hover {
     background-color: var(--green);
 }
 
+.num3 {
+    display: inline-block;
+    font-size: 25px;
+    background-color: var(--gray);
+    color: var(--text-light);
+    margin : 15px; 
+    width: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.num3:hover {
+    background-color: var(--dark-clr);
+}
 /* bouton ajouter au panier */
 .aap1 {
     width: 250px;
@@ -113,6 +131,7 @@ div.num1:hover {
     font-weight: bold;
     background-color: var(--green);
     color: var(--light-clr);
+    border-radius: 10px;
     padding: 5px;
     justify-content: center;
     cursor: pointer;
@@ -124,7 +143,7 @@ div.num1:hover {
 
 /* a propos du produit */
 .apropos {
-    font-size: 25px;
+    font-size: 17px;
     margin-top: 40px;
     margin-bottom: 40px;
     text-align: justify;
@@ -203,6 +222,7 @@ h2 {
     background-color: var(--green);
     width: 100%;
     text-align: center;
+    border-radius: 10px;
     cursor: pointer;
     justify-content: center;
 }
@@ -321,7 +341,7 @@ h2 {
 }
 
 /* styles pour les écrans moyens et grands */
-@media (min-width: 768px) {
+@media (max-width: 1023px) {
     .produit {
     max-width: 720px;
   }
